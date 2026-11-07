@@ -1,0 +1,23 @@
+# Local review material, original backups, and the separate website scaffold
+/.local-preparation/
+/build/
+/dist/
+/.build/
+/.swiftpm/
+.DS_Store
+*.log
+*.xcuserstate
+xcuserdata/
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.pem
+*.key
+.codex/
+.aws/
+auth.json
+credentials.json
+__pycache__/
+*.pyc

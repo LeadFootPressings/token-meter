@@ -1,0 +1,29 @@
+name: Checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  macos-build-test:
+    name: macOS build and offline tests
+    runs-on: macos-15
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Audit publication inputs and history
+        run: python3 scripts/audit.py
+      - name: Build local app
+        run: ./build.sh
+      - name: Offline regression tests
+        run: ./scripts/test.sh
+      - name: Package locally on runner
+        run: ./scripts/package.sh
