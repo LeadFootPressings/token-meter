@@ -1,6 +1,6 @@
 # GitHub onboarding and development workflow
 
-Nothing has been published, GitHub Desktop/account setup is not yet ready, and no remote repository has been created. The owner will tell us when ready. The collection is LeadFoot Pressings; no GitHub handle is assumed. Follow the staged [permissions checklist](GITHUB-PERMISSIONS.md) before setup or external actions. The local workspace already has an empty Git repository on `main`, with no commits or remotes. There is no prior commit history to import; predecessor development notes are preserved in CHANGELOG.md and the private backup.
+The repository is `LeadFootPressings/token-meter`. GitHub Desktop setup and the initial private upload are complete. The owner authorized publication of the source as a clearly labeled development preview. This does not publish an installable app, a stable release, or the separate exhibition website. Commits use the owner-selected LeadFootPressings identity and GitHub noreply email. The import instructions below document the original setup procedure.
 
 ## Recommended account and repository layout
 

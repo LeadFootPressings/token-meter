@@ -1,6 +1,6 @@
 # GitHub setup and publication permissions
 
-Status: **planning only**. GitHub Desktop and the account are not yet ready. No setup, login, remote creation, push, public release, or permission change is authorized by this checklist. The owner will tell us when to begin.
+Status: Local setup and the initial private upload are complete. The owner authorized publishing `LeadFootPressings/token-meter` as a source-only development preview, including its publication documentation. Binary distribution, signing credential use, paid services, and exhibition hosting remain separate work. The stages below remain guidance for future actions; this document itself grants no permissions.
 
 Project: Token Meter. Collection: **LeadFoot Pressings**. MIT is approved and applied with Copyright (c) 2026 LeadFoot. The collection name does not presume an Organization, available username, domain, or legal company identity.
 
